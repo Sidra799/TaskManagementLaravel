@@ -1,0 +1,30 @@
+.queryContainer{
+    width: 100%;
+    /* margin: 200px auto; */
+    background: #A0A0A0;
+    border-radius: 6px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    
+  }
+.queryContainer textarea{
+    background: transparent;
+    border: 0;
+    font-size: 20px;
+    width: 100%;
+    color: black;
+  }
+
+.suggestion{
+      border-top: 2px solid #999;
+ }
+.suggestion > div {
+      padding: 1px;
+      font-size: 15px;
+      color:#fff;
+      border-top: 1px solid #666;
+      cursor: pointer;
+  }
+.suggestion > div:hover{
+      background-color: #1e4dd4;
+  }
